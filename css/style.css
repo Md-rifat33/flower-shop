@@ -261,3 +261,60 @@
 }
 
 /* End : Instagram Section */
+
+/* Start : Latest Deals Section */
+
+.latest_deals_section {
+  width: 75%;
+  height: 400px;
+
+  margin: auto;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  margin-right: 284px;
+  background-image: url('../images/Rectangle\ 9.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.latest_deals_title {
+  font-size: 28px;
+  /* margin-bottom: 12px; */
+}
+
+.latest_deals_details {
+  font-size: 15px;
+  font-weight: 500;
+  font-style: italic;
+  margin-top: 7px;
+  margin-bottom: 30px;
+}
+
+.email_box {
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+  border: 0;
+  border-radius: 3px;
+  font-size: 17px;
+  font-style: italic;
+}
+
+.subscribe_btn {
+  border: 0;
+  width: 120px;
+  height: 50px;
+  padding: 17px;
+  border-radius: 5px;
+  background-color: #e55473;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* End : Latest Deals Section */
