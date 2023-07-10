@@ -88,20 +88,20 @@
 
 .banner_title {
   font-size: 55px;
+  font-weight: 700;
 }
 
 .banner_info {
-  font-size: 18px;
+  font-size: 15px;
   font-style: italic;
   margin-top: 20px;
   margin-bottom: 20px;
-  line-height: 32px;
+  line-height: 35px;
 }
 
 .banner_image img {
   width: 550px;
-  height: 650px;
-  margin-top: 20px;
+  height: 700px;
 }
 
 .shop_btn {
@@ -119,3 +119,61 @@
   width: 260px;
 }
 /* End : banner */
+
+/* Start : Featured Section */
+
+.featured_section {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.featured_flower_title {
+  font-size: 25px;
+}
+
+.featured_flower_description {
+  margin-top: 13px;
+  font-size: 15px;
+}
+
+.featured_flowers_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.pink_flower img {
+  max-width: 300px;
+  height: 400px;
+  background-color: #e5547333;
+  padding: 50px 50px 0 50px;
+  border-top-right-radius: 300px;
+  border-top-left-radius: 300px;
+}
+
+.various_flower img {
+  max-width: 300px;
+  height: 400px;
+  background-color: #0598a02f;
+  padding: 50px 50px 0 50px;
+  border-top-right-radius: 300px;
+  border-top-left-radius: 300px;
+}
+.yellow_flower img {
+  max-width: 300px;
+  height: 400px;
+  background-color: #477d113b;
+  padding: 50px 50px 0 50px;
+  border-top-right-radius: 300px;
+  border-top-left-radius: 300px;
+}
+
+.flower_name {
+  text-decoration: underline;
+}
+
+/* End : Featured Section */
