@@ -267,6 +267,15 @@
   margin-bottom: 30px;
 }
 
+.images img {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.images img:hover {
+  transform: scale(1.04);
+}
+
 /* End : Instagram Section */
 
 /* Start : Latest Deals Section */
